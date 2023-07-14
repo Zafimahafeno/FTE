@@ -33,6 +33,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    .texte-j {
+        color: white;
+    }
+</style>
+
 </head>
 
 <body>
@@ -42,8 +49,6 @@
     <div class="container-fluid container-xxl d-flex align-items-center">
 
       <div id="logo" class="me-auto">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
         <a href="index.html" class="scrollto"><img src="assets/img/fte.png" alt="" title=""></a>
       </div>
 
@@ -97,6 +102,72 @@
         </div>
       </div>
     </section><!-- End About Section -->
+
+    <!-- Start Count Down Area -->
+    <div class="count-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-head">
+                        <div class="box-content">
+                            <div class="box">
+                                <h1 id="days">145</h1>
+                                <h2 id="daystxt">Jours</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="hours">00</h1>
+                                <h2 id="hourstxt">Heures</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="minutes">00</h1>
+                                <h2 id="minutestxt">Minutes</h2>
+                            </div>
+                            <div class="box">
+                                <h1 id="seconds">00</h1>
+                                <h2 id="secondstxt">Secondes</h2>
+                            </div>
+                            <div class="texte-j">
+                              <H1><p>JUSQ'AU JOURS DE L'EVENEMENT</p></H1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Count Down Area -->
+    <script>
+      // Fonction pour mettre à jour le compte à rebours
+      function updateCountdown() {
+          // Date cible (exemple : 1er janvier 2024)
+          var targetDate = new Date("2023-12-06");
+          // Date actuelle
+          var currentDate = new Date();
+
+          // Calcul de la différence en millisecondes entre les deux dates
+          var difference = targetDate.getTime() - currentDate.getTime();
+
+          // Calcul des jours, heures, minutes et secondes restantes
+          var days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+          // Mise à jour des éléments HTML avec les valeurs calculées
+          document.getElementById("days").innerHTML = days.toString().padStart(2, "0");
+          document.getElementById("hours").innerHTML = hours.toString().padStart(2, "0");
+          document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, "0");
+          document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, "0");
+
+          // Appel de la fonction updateCountdown toutes les secondes
+          setTimeout(updateCountdown, 1000);
+      }
+
+      // Démarrer le compte à rebours lors du chargement de la page
+      window.onload = function() {
+          updateCountdown();
+      };
+  </script>
 
     <!-- ======= Speakers Section ======= -->
     <section id="speakers">
