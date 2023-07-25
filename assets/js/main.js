@@ -216,10 +216,6 @@
   on('show.bs.modal', '#buy-ticket-modal', function(event) {
     select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
   })
-
-  /**
-   * Animation on scroll
-   */
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
