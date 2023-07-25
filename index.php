@@ -56,7 +56,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
           <li><a class="nav-link scrollto" href="#about">A Propos</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">MasterClasse</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">MasterClass</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Ordre du jours</a></li>
           <li><a class="nav-link scrollto" href="#venue">Lieu</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Game Contest</a></li>
@@ -73,7 +73,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0">BIENVENUE À LA<br><span>FIANARA <span>TECH</span> EXPO</span></h1>
+      <h1 class="mb-4 pb-0">BIENVENUE AU <br><span>FIANARA <span>TECH</span> EXPO</span></h1>
       <p class="mb-4 pb-0">Du 06 au 09 Décembre 2023,lieu: KSLMD Andrainjato, Fianarantsoa</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
       <a href="#about" class="about-btn scrollto">À propos de l'événement</a>
@@ -167,21 +167,28 @@
           updateCountdown();
       };
   </script>
-
     <!-- ======= Speakers Section ======= -->
     <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Master classes pendant cet événement.</h2>
+          <h2>MasterClass pendant cet événement.</h2>
           <p>Voici quelques-uns de nos conférenciers.</p>
         </div>
+        <div class="text-center">
+      <a href="./placevip/reservation.php" class="btn btn-primary">Réserver une place pour cet événement.</a>
+        </div>
+        
+        <div>
+        <p> </p>
+        </div>
+
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 1</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 1</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -196,7 +203,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 2</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 2</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -211,7 +218,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 3</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 3</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -226,7 +233,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 4</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 4</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -241,7 +248,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 5</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 5</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -256,7 +263,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">MasterClasse 6</a></h3>
+                <h3><a href="speaker-details.html">MasterClass 6</a></h3>
                 <p></p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -279,7 +286,6 @@
           <h2>ORDRE DU JOUR DE CET EVENEMENT</h2>
           <p>Voici notre ordre du jour prévu pour cet événement.</p>
         </div>
-
         <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item">
             <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Jours 1</a>
@@ -347,7 +353,7 @@
                 <div class="speaker">
                   <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
                 </div>
-                <h4>MASTER CLASSE AVEC ...</h4>
+                <h4>MASTERCLASS AVEC ...</h4>
                 <p>Accompagnee par ...</p>
               </div>
             </div>
@@ -364,7 +370,7 @@
                 <div class="speaker">
                   <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
                 </div>
-                <h4>MASTER CLASSE AVEC ...</h4>
+                <h4>MASTERCLASS AVEC ...</h4>
                 <p>Accompagne par ...</p>
               </div>
             </div>
@@ -375,7 +381,7 @@
                 <div class="speaker">
                   <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
                 </div>
-                <h4>MASTER CLASSE AVEC ...</h4>
+                <h4>MASTERCLASS AVEC ...</h4>
                 <p>Accompagne par ...</p>
               </div>
             </div>
@@ -521,13 +527,19 @@
     <!-- ======= Gallery Section ======= -->
     <section id="gallery">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>GAME CONTEST</h2>
-          <p>Voici la liste des jeux auxquels vous pouvez participer lors de cet événement.</p>
+  <div class="container" data-aos="fade-up">
+  <div class="section-header">
+    <h2>GAME CONTEST</h2>
+    <p>Voici la liste des jeux auxquels vous pouvez participer lors de cet événement.</p>
+       
+    <div class="text-center">
+     <div>
+          <p> </p>
         </div>
-      </div>
-
+      <a href="inscription.php" class="btn btn-primary">Inscrivez-vous maintenant</a>
+    </div>
+  </div>
+</div>
       <div class="gallery-slider swiper">
         <div class="swiper-wrapper align-items-center">
           <div class="swiper-slide"><a href="assets/img/gallery/blur_800x600.jpg" class="gallery-lightbox"><img src="assets/img/gallery/blur_800x600.jpg" class="img-fluid" alt=""></a></div>
@@ -633,7 +645,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access">Reserver</button>
                 </div>
               </div>
             </div>
@@ -654,7 +666,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">Reserver</button>
                 </div>
               </div>
             </div>
@@ -676,7 +688,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="premium-access">Reserver</button>
                 </div>
 
               </div>
@@ -691,27 +703,30 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
+              <h4 class="modal-title">Reservation de Stande</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form method="POST" action="#">
+              <form method="POST" action="create_stande">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                  <input type="text" class="form-control" name="nom" placeholder="Nom">
                 </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                  <input type="text" class="form-control" name="phone" placeholder="Contact">
                 </div>
                 <div class="form-group mt-3">
-                  <select id="ticket-type" name="ticket-type" class="form-select">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
+                  <input type="text" class="form-control" name="email" placeholder="E-Mail">
+                </div>
+                <div class="form-group mt-3">
+                  <select id="ticket-type" name="typestand" class="form-select">
+                    <option>-- Select Your Ticket Type --</option>
+                    <option value="1">Stande Moyen</option>
+                    <option value="2">Stande Standard</option>
+                    <option value="5">Stande Gold</option>
                   </select>
                 </div>
                 <div class="text-center mt-3">
-                  <button type="submit" class="btn">Buy Now</button>
+                  <button type="submit" class="btn">Reserver Maintenant</button>
                 </div>
               </form>
             </div>
